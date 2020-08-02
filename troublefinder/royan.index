@@ -2,12 +2,12 @@
 <index>
 	<info>
 		<update version="0.0.1">
-			<file name="royan.index" url="https://raw.githubusercontent.com/troublefinder/elements-royan/troublefinder/royan.index" />
+			<file name="royan.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/troublefinder/royan.index" />
 		</update>
 	</info>
 	<files>
 
-		<file name="items.xml" url="https://raw.githubusercontent.com/troublefinder/elements-royan/troublefinder/royan/items.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/troublefinder/royan/items.xml" />
 	
 	</files>
 </index>
