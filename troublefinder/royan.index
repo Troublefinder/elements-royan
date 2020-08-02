@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
+		<name>World of Royan</name>
+		<description>World of Royan Manual</description>
+		<author url="https://www.worldanvil.com/w/royan-helnar">JBTF</author>
 		<update version="0.0.2">
 			<file name="royan.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan.index" />
 		</update>
