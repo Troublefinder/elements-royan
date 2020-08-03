@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<name>Mage Hand Press</name>
-		<description>The 5e homebrew content from the Mage Hand Press website.</description>
-		<author url="http://magehandpress.com/">Mage Hand Press</author>
+		<name>Finger Hand Press</name>
+		<description>The 5e homebrew content from the Finger Hand Press website.</description>
+		<author url="http://magehandpress.com">Mage Hand Press</author>
 		<update version="0.0.2">
 			<file name="royan.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan.index" />
 		</update>
