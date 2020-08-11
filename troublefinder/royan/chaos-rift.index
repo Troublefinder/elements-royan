@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<name>Chaos Rift</name>
-		<update version="0.0.3">
+		<name>World of Royan 5e DnD</name>
+		<update version="0.0.4">
 			<file name="chaos-rift.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift.index" />
 		</update>
 	</info>
@@ -11,3 +11,5 @@
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-armor.xml" />
 	</files>
 </index>
+
+
