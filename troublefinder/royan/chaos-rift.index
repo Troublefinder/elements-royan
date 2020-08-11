@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<name>chaos rift</name>
-		<update version="0.0.1">
+		<name>Chaos Rift</name>
+		<update version="0.0.3">
 			<file name="chaos-rift.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift.index" />
 		</update>
 	</info>

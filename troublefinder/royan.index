@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<name>Troublefinder Games</name>
+		<name>World of Royan</name>
 		<description>The 5e homebrew content from Troublefinder World of Royan</description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="royan.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan.index" />
 		</update>
 	</info>

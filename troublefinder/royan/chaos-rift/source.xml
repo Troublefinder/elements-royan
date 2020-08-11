@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.2">
+		<update version="0.4">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/source.xml" />
 		</update>
 	</info>
@@ -10,9 +10,10 @@
 			<![CDATA[<p>Homebrew content World of Royan 5e chaos rift.</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">JBTF</set>
+			<set name="abbreviation">JBTFCR</set>
 			<set name="url">https://www.worldanvil.com/w/royan-helnar</set>
-			<set name="author" abbreviation="JBTF">Troublefinder</set>
+			<set name="image">https://www.drivethrurpg.com/images/4329/267073.jpg</set>
+			<set name="author" abbreviation="JBTF"  url="https://www.arcanumworlds.com/">>Troublefinder</set>
 			<set name="troublefinder">true</set>
 		</setters>
 	</element>
