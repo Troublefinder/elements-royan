@@ -13,7 +13,7 @@
 			<set name="abbreviation">JBTF</set>
 			<set name="url">https://www.worldanvil.com/w/royan-helnar</set>
 			<set name="author" abbreviation="JBTF">Troublefinder</set>
-			<set name="homebrew">true</set>
+			<set name="troublefinder">true</set>
 		</setters>
 	</element>
 </elements>
