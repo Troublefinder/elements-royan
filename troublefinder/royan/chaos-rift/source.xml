@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.4">
+		<update version="0.0.3">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/source.xml" />
 		</update>
 	</info>
-	<element name="World of Royan 5e DnD" type="Source" source="Chaos Rift" id="ID_JBTF_SOURCE_WOR_CHAOS_RIFT">
+	<element name="World of Royan 5e DnD" type="Source" source="Core" id="ID_JBTF_SOURCE_WOR_CHAOS_RIFT">
 		<description>
 			<![CDATA[<p>Homebrew content World of Royan 5e chaos rift.</p>]]>
 		</description>
