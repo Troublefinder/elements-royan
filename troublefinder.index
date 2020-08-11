@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Troublefinder Games</name>
+		<update version="0.0.2">
+			<file name="troublefinder.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder.index" />
+		</update>
+	</info>
+	<files>
+		<file name="royan.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan.index" />
+	</files>
+</index>

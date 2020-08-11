@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<info>
+		<name>Armor</name>
+		<description></description>
+		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
+		<update version="0.0.1">
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-armor.xml" />
+		</update>
+	</info>
+	
+	
+		<!-- Armors -->
+		
+		
+<elements>
+	<element name="Duerinium Armor" type="Magic Item" source="Chaos Rift" id="ID_JBTF_WORCR_MAGIC_ITEM_DUERINIUM_ARMOR">
+		<description>
+			<p>This suit of armor is reinforced with a magically enhanced metal alloy called duerinium, which is made in Duergar foundries deep in the under rifts. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.</p>
+		</description>
+		<setters>		
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Duerinium {{parent}}</set>
+		</setters>
+	</element>
+
+
+</elements>
