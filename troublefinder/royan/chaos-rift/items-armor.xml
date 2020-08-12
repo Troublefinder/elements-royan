@@ -14,7 +14,7 @@
 		
 		
 
-	<element name="Duerinium Armor" type="Magic Item" source="Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_DUERINIUM_ARMOR">
+	<element name="Duerinium Armor" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_DUERINIUM_ARMOR">
 		<description>
 			<p>This suit of armor is reinforced with a magically enhanced metal alloy called duerinium, which is made in Duergar foundries deep in the under rifts. While you're wearing the armor, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.</p>
 		</description>
