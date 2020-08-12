@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.3">
+		<update version="0.0.5">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/source.xml" />
 		</update>
 	</info>
-	<element name="World of Royan 5e DnD" type="Source" source="Core" id="ID_JBTF_SOURCE_WOR_CHAOS_RIFT">
+	<element name="World of Royan 5e DnD" type="Source" source="Chaos Rift 2" id="ID_JBTF_SOURCE_WOR_CHAOS_RIFT">
 		<description>
 			<![CDATA[<p>Homebrew content World of Royan 5e chaos rift.</p>]]>
 		</description>
 		<setters>
-			<set name="abbreviation">JBTFCR</set>
+			<set name="abbreviation">JBTF</set>
 			<set name="url">https://www.worldanvil.com/w/royan-helnar</set>
 			<set name="image">https://www.drivethrurpg.com/images/4329/267073.jpg</set>
-			<set name="author" abbreviation="JBTF"  url="https://www.arcanumworlds.com/">>Troublefinder</set>
+			<set name="author" abbreviation="JBTF"  url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</set>
 			<set name="troublefinder">true</set>
 		</setters>
 	</element>
