@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Chaos Rift</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="chaos-rift.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift.index" />
 		</update>
 	</info>
