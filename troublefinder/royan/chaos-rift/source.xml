@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="source.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/source.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">JBTF</set>
 			<set name="url">https://www.worldanvil.com/w/royan-helnar</set>
-			<set name="image">https://www.drivethrurpg.com/images/4329/267073.jpg</set>
+			<set name="image">https://iili.io/dhGeu1.jpg</set>
 			<set name="author" abbreviation="JBTF"  url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</set>
 			<set name="homebrew">true</set>
 		</setters>

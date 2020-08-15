@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<description></description>
+		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
+		<update version="0.0.5">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-weapons.xml" />
+		</update>
+	</info>
+	
+	
+	
+    <!-- Titascium Weapons -->
+
+	<element name="Titascium Pistol" type="Weapon" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_TITASCIUM_FIREARMS_PISTOL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+		<p>Titascium Pistols are made by skilled Artificers. The pistol only accepts speciallized Titascium Bullets. The Titascium powder inside the bullets reacts to a specialized trigger inside the pistol</p>
+		<p class="indent"> When a Titascium Pistol is fired it propels the bullet towards the target leaving behind a discharge cloud of colored smoke.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS_PISTOL</set>
+		</setters>
+	</element>
+	<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_TITASCIUM_BULLET</set> -->
+    <element name="Titascium Bullet" type="Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_ITEM_TITASCIUM_BULLET">
+		<description>
+			<p>The ammunition of a Titascium firearm is made from a mineral called Titascium. The bullet is made from an alloy of Titascium and other metals. Different Titascium alloys have different properties.</p>
+			<p class="indent">Inside the bullet a powder mixture also made from Tiascium fuels reaction needed to propel it out of the pistol.</p>
+			<p class="indent">Titascium bullets can only be made by a skilled <em> Artificer </em>. </p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">3</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+
+ 	<!-- Weapons magical -->
+
+	<element name="Crescent Mother Cutlass" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_CRESCENT_MOTHER_CUTLASS">	
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the cutlass to attack a fiend or an undead.</p>
+			<p class="indent">When you hit a fiend or an undead with this magic weapon, that creature takes an extra 1d6 radiant damage.</p>
+			<p class="indent">In darkness, the unsheathed blade of this sword. sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.</p>
+			<p class="indent">If you are proficient with rapiers, you are proficient with the <em>Crescent Mother Cutlass</em> </p>
+		</description>
+		<setters>
+			<set name="keywords">rapier</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Rapier</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+
+	<!-- proficiencies -->
+	<element name="Weapon Proficiency (Titascium Firearms)" type="Proficiency" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS">
+		<sheet alt="Titascium Firearms" />
+		<rules>
+			<grant type="Proficiency" id="ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS_PISTOL" />
+		</rules>
+	</element>
+
+	
+	<element name="Weapon Proficiency (Titascium Pistol)" type="Proficiency" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS_PISTOL">
+		<supports>Weapon, Martial, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_JBTF_WOR_CR_WEAPON_PROPERTY_TITASCIUM_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		
+		<sheet alt="Titascium Pistol" />
+	</element>
+
+
+	<!-- properties -->
+	<element name="Titascium Ammunition" type="Weapon Property" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_WEAPON_PROPERTY_TITASCIUM_FIREARM_AMMUNITION">
+		<description>
+			<p>The ammunition of a firearm is destroyed upon use. </p>
+			<p class="indent">The ammunition of a Titascium firearm is made from a mineral called Titascium. The bullet is made from an alloy of Titascium and other metals. Different Titascium alloys have different properties.</p>
+			<p class="indent">Inside the bullet a powder mixture also made from Tiascium fuels reaction needed to propel it out of the pistol.</p>
+			<p class="indent">Titascium bullets can only be made by a skilled <em> Artificer </em>. </p>
+		</description>
+	</element>
+
+		<!-- append to firearms proficiency to martial ranged -->
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS"/>
+		</rules>
+	</append>
+</elements>
+
+
+
+
+
+
+
+	
+    
+    
+    
+    
+    
+    
+    

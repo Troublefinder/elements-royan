@@ -4,7 +4,7 @@
 		<name>Armor</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-armor.xml" />
 		</update>
 	</info>
@@ -31,5 +31,29 @@
 		</setters>
 	</element>
 
+	<element name="Bjørnvakt, shield of Malmfjall" type="Magic Item" source="Dungeon Master’s Guide" id="ID_JBTF_WOR_CR_MAGIC_ITEM_BJORNVAKT_SHIELD">
+		<description>
+			<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks.</p>
+			<p>Bjørnvakt was a gift to an elven ambassador, the shield would protect the elf from would be assassins. Furthermore it would give them access to the intricacies of the dwarven language to stimulate better relations between the dwarven and elven peoples.</p>
+			<p class="indent"> It provides the following bennefits while it is on your person: </p>
+			<ul>
+				<li>You can speak and understand the dwarven language and it's dialects.</li>
+				<li>Bjørnvakt, shield of Malmfjall can't be broken. Special means must be used to destroy it.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+			<grant type="Language" id="ID_LANGUAGE_DWARVISH" />
+			<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+		</rules>
+	</element>
 
 </elements>
