@@ -4,7 +4,7 @@
 		<name>Armor</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-armor.xml" />
 		</update>
 	</info>
@@ -31,7 +31,7 @@
 		</setters>
 	</element>
 
-	<element name="Bjørnvakt, shield of Malmfjall" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_BJORNVAKT_SHIELD">
+	<element name="Bjørnvakt, Shield of Malmfjall" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_BJORNVAKT_SHIELD">
 		<description>
 			<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks.</p>
 			<p>Bjørnvakt was a gift to an elven ambassador, the shield would protect the elf from would be assassins. Furthermore it would give them access to the intricacies of the dwarven language to stimulate better relations between the dwarven and elven peoples.</p>
