@@ -4,7 +4,7 @@
 		<name>Spells</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/spells.xml" />
 		</update>
 	</info>
@@ -13,7 +13,7 @@
      <element name="Noxious Dragon’s Breath" type="Spell" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_SPELL_NOXIOUS_DRAGONS_BREATH">
         <supports>Sorcerer, Wizard, Druid</supports>
         <description>
-            <p>You can use an action to exhale poisonous gas in a 30-foot cone. Each creature in that area must make a constitution check gainst your spell save DC, taking 6d6 poison damage on a failed save, or half as much damage on a successful one.</p>
+            <p>You can use an action to exhale poisonous gas in a 30-foot cone. Each creature in that area must make a constitution check against your spell save DC, taking 6d6 poison damage on a failed save, or half as much damage on a successful one.</p>
             <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>
         </description>
         <setters>
