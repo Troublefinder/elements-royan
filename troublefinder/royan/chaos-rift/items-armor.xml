@@ -4,7 +4,7 @@
 		<name>Armor</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-armor.xml" />
 		</update>
 	</info>
@@ -68,6 +68,7 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="slot">body</set>
 			<set name="type" addition="scale mail">Armor</set>
+			<set name="attunement">true</set>
 			<set name="rarity">Rare</set>
 			<set name="armor">Scale Mail</set>
 			<set name="enhancement">1</set>
