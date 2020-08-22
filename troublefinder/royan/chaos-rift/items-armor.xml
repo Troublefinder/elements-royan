@@ -78,6 +78,30 @@
 		</rules>
 	</element>
 
+	<element name="Milliandra's Chain of the Fairfolk" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_ARMOR_WOODLAND_GUARDIAN_MILLIANDRA_CHAIN">
+		<description>
+			<p>You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>
+			<p class="indent">While you wear this chain shirt, you have a flying speed equal to your walking speed. You can use the chain shirt to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</p>
+			<p class="indent">The chain shirt regain 2 hours of flying capability for every 12 hours it isn't in use.</p>
+		</description>
+		<setters>
+			<set name="keywords">chain, shirt</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="chain shirt">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Chain Shirt</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Milliandra's {{parent}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
+			<stat name="speed:fly" value="speed" bonus="base" />			
+		</rules>
+	</element>
 
 
 
