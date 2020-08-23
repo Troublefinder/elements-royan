@@ -4,7 +4,7 @@
 		<name>Armor</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="items-armor.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-armor.xml" />
 		</update>
 	</info>
@@ -82,7 +82,7 @@
 		<description>
 			<p>You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>
 			<p class="indent">While you wear this chain shirt, you have a flying speed equal to your walking speed. You can use the chain shirt to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</p>
-			<p class="indent">The chain shirt regain 2 hours of flying capability for every 12 hours it isn't in use.</p>
+			<p class="indent">The chain shirt regains 2 hours of flying capability for every 12 hours it isn't in use.</p>
 		</description>
 		<setters>
 			<set name="keywords">chain, shirt</set>
