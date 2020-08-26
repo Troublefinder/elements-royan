@@ -12,6 +12,8 @@
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-weapons.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/feats.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/spells.xml" />
+		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
+		
 	</files>
 </index>
 
