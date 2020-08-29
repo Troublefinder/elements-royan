@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-wondrous.xml" />
 		</update>
 	</info>
@@ -37,5 +37,77 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
+	<element name="Utility Belt of the Night Gnome" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_UTILITY_BELT_OF_THE_NIGHT_GNOME">
+		<description>
+			<p>The legend of the Night Gnome lives on. A thousand years children and evildoers have been afraid of the dark. The Night Gnome might just get you! The utility belt helps to channel and control magic. This apparatus is a collection of leather straps, flexible tubing, glass cylinders, and fittings made from a magic-infused metal alloy, all assembled into a small belt one can wear as a belt. Handy!. The item weighs 5 pounds.</p>
+			<p class="indent">While you are wearing the utility belt, you can use it as an arcane focus. In addition, you can attempt to cast a spell that you do not know or have prepared. The spell you choose must be on your class's spell list and of a level for which you have a spell slot, and you must provide the spell's components.</p>
+			<p class="indent">You expend a spell slot to cast the spell as normal, but before resolving it you must make an Intelligence (Arcana) check. The DC is 10 + twice the level of the spell slot you expend to cast the spell.</p>
+			<p class="indent">On a successful check, you cast the spell as normal, using your spell save DC and spellcasting ability modifier. On a failed check, you cast a different spell from the one you intended. Randomly determine the spell you cast by rolling on the table for the level of the spell slot you expended. If the slot is 6th level or higher, roll on the table for 5th-level spells.</p>
+			<p class="indent">If you try to cast a cantrip you don't know, the DC for the Intelligence (Arcana) check is 10, and on a failed check, there is no effect. The belt can only be used by by a sorcerer, warlock, or wizard</p>
+			<h5>1ST-LEVEL SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1</td><td>burning hands</td></tr>
+				<tr><td>2</td><td>chaos bolt</td></tr>
+				<tr><td>3</td><td>color spray</td></tr>
+				<tr><td>4</td><td>faerie fire</td></tr>
+				<tr><td>5</td><td>fog cloud</td></tr>
+				<tr><td>6</td><td>thunderwave</td></tr>
+			</table>
+			<h5>2ND-LEVEL SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1</td><td>blur</td></tr>
+				<tr><td>2</td><td>gust of wind</td></tr>
+				<tr><td>3</td><td>heat metal</td></tr>
+				<tr><td>4</td><td>Melf's acid arrow</td></tr>
+				<tr><td>5</td><td>scorching ray</td></tr>
+				<tr><td>6</td><td>shatter</td></tr>
+			</table>
+			<h5>3RD-LEVEL SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1</td><td>fear</td></tr>
+				<tr><td>2</td><td>feign death</td></tr>
+				<tr><td>3</td><td>fireball</td></tr>
+				<tr><td>4</td><td>gaseous form</td></tr>
+				<tr><td>5</td><td>sleet storm</td></tr>
+				<tr><td>6</td><td>stinking cloud</td></tr>
+			</table>
+			<h5>4TH-LEVEL SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>d4</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1</td><td>confusion</td></tr>
+				<tr><td>2</td><td>conjure minor elementals</td></tr>
+				<tr><td>3</td><td>Evard's black tentacles</td></tr>
+				<tr><td>4</td><td>ice storm</td></tr>
+			</table>
+			<h5>5TH-LEVEL SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>d4</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1</td><td>animate objects</td></tr>
+				<tr><td>2</td><td>cloudkill</td></tr>
+				<tr><td>3</td><td>cone of cold</td></tr>
+				<tr><td>4</td><td>flame strike</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>	
 	
 </elements>
