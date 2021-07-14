@@ -22,6 +22,24 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
+	<element name="Gauntlets of Grimlock Power" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_GAUNTLETS_OF_GRIMLOCK_POWER">
+		<description>
+			<p>Your Strength score is 16 while you wear these gauntlets. They have no effect on you if your Strength is 16 or higher without them.</p>
+		</description>
+		<setters>
+			<set name="keywords">strength</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" value="16" bonus="base" />
+		</rules>
+	</element>
 	<element name="Tricorn Hat of Influence" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_TRICORN_OF_INFLUENCE">
 		<description>
 			<p>This hat has 5 charges. As a bonus action, you may touch the brim of the hat to expend a charge and activate its effect. While activated, the hat gives you advantage on Charisma (Persuasion) checks and Charisma (Intimidation) checks.</p>
