@@ -40,6 +40,26 @@
 			<stat name="strength:score:set" value="16" bonus="base" />
 		</rules>
 	</element>
+		<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="D_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
+		<description>
+			<p>You gain a +1 bonus to AC and saving throws while you wear this cloak.</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak, armor</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="ac:ironcloak" value="15" />
+			<stat name="ac:ironcloak" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none]" />
+		</rules>
+	</element>
 	<element name="Tricorn Hat of Influence" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_TRICORN_OF_INFLUENCE">
 		<description>
 			<p>This hat has 5 charges. As a bonus action, you may touch the brim of the hat to expend a charge and activate its effect. While activated, the hat gives you advantage on Charisma (Persuasion) checks and Charisma (Intimidation) checks.</p>
