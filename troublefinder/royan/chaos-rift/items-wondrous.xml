@@ -42,7 +42,7 @@
 	</element>
 		<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="D_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
 		<description>
-			<p>You gain a +1 bonus to AC and saving throws while you wear this cloak.</p>
+			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. While wearing this item, your AC can't be less than 17, regardless of what kind of armor you are wearing. In addition, while you are taking the dodge action, your AC can't be less than 20.</p>
 		</description>
 		<setters>
 			<set name="keywords">cloak, armor</set>
@@ -55,7 +55,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<stat name="ac:ironcloak" value="15" />
+			<stat name="ac:ironcloak" value="17" />
 			<stat name="ac:ironcloak" value="dexterity:modifier" />
 			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none]" />
 		</rules>
