@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.0.4">
+		<update version="0.0.6">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-wondrous.xml" />
 		</update>
 	</info>
@@ -40,7 +40,7 @@
 			<stat name="strength:score:set" value="16" bonus="base" />
 		</rules>
 	</element>
-		<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="D_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
+		<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
 		<description>
 			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. While wearing this item, your AC can't be less than 17, regardless of what kind of armor you are wearing. In addition, while you are taking the dodge action, your AC can't be less than 20.</p>
 		</description>
@@ -59,6 +59,18 @@
 			<stat name="ac:ironcloak" value="dexterity:modifier" />
 			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" />
 		</rules>
+	</element>
+	<element name="Lens of Lighting" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_LENS_OF_LIGHTING">		
+		<description>
+			<p>This small convex glass lens can focus even the dimmest amount of light (including moonlight) into a tiny point that lights any combustible material (such as paper, cloth, or wood).</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
 	</element>
 	<element name="Tricorn Hat of Influence" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_TRICORN_OF_INFLUENCE">
 		<description>

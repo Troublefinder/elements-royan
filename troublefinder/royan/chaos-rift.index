@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Chaos Rift</name>
-		<update version="0.0.7">
+		<update version="0.0.9">
 			<file name="chaos-rift.index" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift.index" />
 		</update>
 	</info>
@@ -13,6 +13,8 @@
 		<file name="feats.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/feats.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/spells.xml" />
 		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
+		<file name="items-rings.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-rings.xml" />
+		<file name="items-potions.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-potions.xml" />
 		
 	</files>
 </index>
