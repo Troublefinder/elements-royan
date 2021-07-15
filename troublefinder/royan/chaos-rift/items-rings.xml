@@ -2,8 +2,10 @@
 <elements>
 	<info>
 		<name>Rings</name>
-		<update version="0.0.1">
-			<file name="items-rings.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-rings.xml" />
+		<description></description>
+		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
+		<update version="0.0.2">
+			<file name="items-rings.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-rings.xml" />
 		</update>
 	</info>
 	<element name="Ring of Brief Blessing" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_RING_OF_BRIEF_BLESSING">

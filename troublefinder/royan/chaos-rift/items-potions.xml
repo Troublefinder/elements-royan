@@ -2,12 +2,14 @@
 <elements>
 	<info>
 		<name>Potions</name>
-		<update version="0.0.1">
-			<file name="items-potions.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-potions.xml" />
+		<description></description>
+		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
+		<update version="0.0.2">
+			<file name="items-potions.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-potions.xml" />
 		</update>
 	</info>
 
-	<element name="Bottle of Sunlight" type="Magic Item" source="Dungeon Master’s Guide" id="ID_JBTF_WOR_CR_MAGIC_ITEM_BOTTLE_OF_SUNLIGHT">		
+	<element name="Bottle of Sunlight" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_BOTTLE_OF_SUNLIGHT">		
 		<description>
 			<p>This triangular bottle is made of opaque glass and has a cork stopper. When you use an action to remove the stopper, a 60-foot-radius sphere of light spreads out from that place. The sphere is bright sunlight and sheds dim sunlight for an additional 60 feet. If any of the light overlaps with an area of darkness created by a <em>spell of 3rd level or lower</em>, the spell that created the darkness is <em>dispelled.</em> The light does not move with the bottle and disappears after 1 hour.</p>
 		</description>

@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-weapons.xml" />
 		</update>
 	</info>
