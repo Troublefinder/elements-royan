@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Wondrous Items</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-wondrous.xml" />
 		</update>
 	</info>
@@ -57,7 +57,7 @@
 		<rules>
 			<stat name="ac:ironcloak" value="17" />
 			<stat name="ac:ironcloak" value="dexterity:modifier" />
-			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none]" />
+			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" />
 		</rules>
 	</element>
 	<element name="Tricorn Hat of Influence" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_TRICORN_OF_INFLUENCE">
