@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.29">
+		<update version="0.0.31">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
 		</update>
 	</info>
@@ -42,9 +42,15 @@
 			<stat name="strength:score:set" value="16" bonus="base" />
 		</rules>
 	</element>
-		<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
+		<element name="Ironcloak of the Runealis" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
 		<description>
-			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. While wearing this item, your AC can't be less than 17, regardless of what kind of armor you are wearing. In addition, while you are taking the dodge action, your AC can't be less than 20.</p>
+			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. </p>
+			
+			<p class="indent">You gain these benefit while wearing the cloak:</p>
+			<ul>
+				<li>If you aren't wearing armor, your base Armor Class is 14 + your Dexterity modifier.</li>
+				<li>If you take the dodge action You have an additional + 3 bonus to AC until your next turn.</li>
+			</ul>
 		</description>
 		<setters>
 			<set name="keywords">cloak, armor</set>
@@ -58,8 +64,14 @@
 		
 		</setters>
 		<rules>
-		<stat name="ac:ironcloak" value="17" />
-		<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[shield:none]" requirements="![ac:misc:1]" /> 
+
+			<stat name="ac:ironcloak" value="14" />
+			<stat name="ac:ironcloak" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none], [shield:none]" />
+		</rules>
+		<!--<stat name="ac:ironcloak" value="17" />
+		<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[shield:none]" requirements="![ac:misc:1]" /> -->
+
 			<!--<stat name="ac:ironcloak" value="12" />
 			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none]" /> -->
 			
@@ -84,7 +96,7 @@
 			<stat name="ac:armored:armor" value="18" />
 			<stat name="speed" value="-10" bonus="armor" requirements="!ID_INTERNAL_GRANTS_IGNORE_HEAVY_ARMOR_SPEED_REDUCTION,![str:15]" />
 		</rules>-->
-		</rules>
+		
 	</element>
 	<element name="Lens of Lighting" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_LENS_OF_LIGHTING">		
 		<description>
