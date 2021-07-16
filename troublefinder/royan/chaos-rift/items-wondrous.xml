@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.33">
+		<update version="0.0.34">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
 		</update>
 	</info>
@@ -42,7 +42,8 @@
 			<stat name="strength:score:set" value="16" bonus="base" />
 		</rules>
 	</element>
-		<element name="Ironcloak of the Runealis" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK_RUNEALIS">
+
+	<element name="Ironcloak of the Runealis" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK_RUNEALIS">
 		<description>
 			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. </p>
 			
@@ -69,8 +70,9 @@
 			<stat name="ac:ironcloak" value="dexterity:modifier" />
 			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none], [shield:none]" />
 		</rules>
-
-		<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
+	</element>
+	
+	<element name="Ironcloak" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK">
 		<description>
 			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. </p>
 			
@@ -96,7 +98,7 @@
 			<stat name="ac:ironcloak" value="17" />
 			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[shield:none]" requirements="![ac:misc:1], ![ac:calculation:16]" /> 
 		</rules>
-		
+	</element>
 		<!--<stat name="ac:ironcloak" value="17" />
 		<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[shield:none]" requirements="![ac:misc:1]" /> -->
 
@@ -125,7 +127,7 @@
 			<stat name="speed" value="-10" bonus="armor" requirements="!ID_INTERNAL_GRANTS_IGNORE_HEAVY_ARMOR_SPEED_REDUCTION,![str:15]" />
 		</rules>-->
 		
-	</element>
+	
 	<element name="Lens of Lighting" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_LENS_OF_LIGHTING">		
 		<description>
 			<p>This small convex glass lens can focus even the dimmest amount of light (including moonlight) into a tiny point that lights any combustible material (such as paper, cloth, or wood).</p>
