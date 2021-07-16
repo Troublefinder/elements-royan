@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.19">
+		<update version="0.0.20">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
 		</update>
 	</info>
@@ -57,7 +57,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<stat name="ac:ironcloak" value="17" equipped="[armor:none]" />/>
+			<stat name="ac:ironcloak" value="17" equipped="[armor:none]" />
 			<!-- <stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none]" /> -->
 			 <!-- <stat name="ac:ironcloak" value="dexterity:modifier" />  -->
 			<!--<stat name="ac:calculation" value="ac:ironcloak" bonus="base" /> -->
