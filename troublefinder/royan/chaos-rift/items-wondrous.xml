@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.14">
+		<update version="0.0.15">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
 		</update>
 	</info>
@@ -57,9 +57,9 @@
 			<set name="rarity">Rare</set>
 		</setters>
 		<rules>
-			<stat name="ac:ironcloak" value="17" />
+			<stat name="ac:ironcloak" value="17" bonus="base" />
 			 <!-- <stat name="ac:ironcloak" value="dexterity:modifier" />  -->
-			<stat name="ac:calculation" value="ac:ironcloak" bonus="base" />
+			<!--<stat name="ac:calculation" value="ac:ironcloak" bonus="base" /> -->
 		</rules>
 	</element>
 	<element name="Lens of Lighting" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_LENS_OF_LIGHTING">		
