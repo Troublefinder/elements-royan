@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.36">
+		<update version="0.0.37">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-wondrous.xml" />
 		</update>
 	</info>
@@ -43,9 +43,9 @@
 		</rules>
 	</element>
 
-	<element name="Ironcloak of the Runealis" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_IRONCLOAK_RUNEALIS">
+	<element name="Titascium cloak of the Runealis" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_TITASCIUM_CLOAK_RUNEALIS">
 		<description>
-			<p>This hooded travelling cloak is made from a dark, metallic thread. It is usually as supple as cotton but becomes iron-hard when struck with force. </p>
+		<p>This hooded travelling cloak is made from a dark, metallic thread made from the mysterious material Titascium. It is usually as supple as cotton but becomes iron-hard when struck with force. </p>
 			
 			<p class="indent">You gain these benefit while wearing the cloak:</p>
 			<ul>
@@ -66,9 +66,9 @@
 		</setters>
 		<rules>
 
-			<stat name="ac:ironcloak" value="14" />
-			<stat name="ac:ironcloak" value="dexterity:modifier" />
-			<stat name="ac:calculation" value="ac:ironcloak" bonus="calculation" equipped="[armor:none], [shield:none]" />
+			<stat name="ac:Titascium cloak of the Runealis" value="14" />
+			<stat name="ac:Titascium cloak of the Runealis" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:Titascium cloak of the Runealis" bonus="calculation" equipped="[armor:none], [shield:none]" />
 		</rules>
 	</element>
 	
