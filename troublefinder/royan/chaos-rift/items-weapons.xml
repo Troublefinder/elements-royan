@@ -82,6 +82,39 @@
 		</setters>
 	</element>
 
+	<element name="Voidbane Starblade" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_VOIDBANE_LONGSWORD">
+		<description>
+			<p>This item appears to be a White Topaz ring. You can use a bonus action to summon an exotic longsword hilt into a free hand which causes a blade of pure radiance to spring into existence, or to make the hilt and blade disappear, or to only make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the <em>Voidbane Starblade.</em></p>
+			<p>You gain a +1 bonus to AC and saving throws while you have this item equiped.</p>
+			<p class="indent">You gain these benefit while the blade exists:</p>
+			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this weapon, which deals an extra 1d4 radiant damage instead of slashing damage.</p>
+			<p class="indent">When you hit an undead with it, that target takes an extra 2d4 radiant damage.</p>
+			<p class="indent">The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p>
+			
+			<p><strong><em>Finesse.</em></strong> When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p>
+			<p><strong><em>Versatile.</em></strong> This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword,radiant</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+			<stat name="strength:save:misc" value="1" />
+			<stat name="dexterity:save:misc" value="1" />
+			<stat name="constitution:save:misc" value="1" />
+			<stat name="intelligence:save:misc" value="1" />
+			<stat name="wisdom:save:misc" value="1" />
+			<stat name="charisma:save:misc" value="1" />
+		</rules>
+	</element>
+
 	<!-- proficiencies -->
 	<element name="Weapon Proficiency (Titascium Firearms)" type="Proficiency" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS">
 		<sheet alt="Titascium Firearms" />
