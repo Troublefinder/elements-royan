@@ -82,9 +82,9 @@
 		</setters>
 	</element>
 
-	<element name="Voidbane Starblade" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_VOIDBANE_LONGSWORD">
+	<element name="Godbane Starblade" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_GODBANE_LONGSWORD">
 		<description>
-			<p>This item appears to be a White Topaz ring. You can use a bonus action to summon an exotic longsword hilt into a free hand which causes a blade of pure radiance to spring into existence, or to make the hilt and blade disappear, or to only make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the <em>Voidbane Starblade.</em></p>
+			<p>This item appears to be a White Topaz ring. You can use a bonus action to summon an exotic longsword hilt into a free hand which causes a blade of pure radiance to spring into existence, or to make the hilt and blade disappear, or to only make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the <em>Godbane Starblade.</em></p>
 			<p>You gain a +1 bonus to AC and saving throws while you have this item equiped.</p>
 			<p class="indent">You gain these benefit while the blade exists:</p>
 			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this weapon, which deals an extra 1d4 radiant damage instead of slashing damage.</p>
