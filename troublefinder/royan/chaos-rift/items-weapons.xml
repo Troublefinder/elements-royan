@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="https://www.worldanvil.com/w/royan-helnar">Troublefinder Games</author>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Troublefinder/elements-royan/master/troublefinder/royan/chaos-rift/items-weapons.xml" />
 		</update>
 	</info>
@@ -26,6 +26,40 @@
 			<set name="slot">onehand</set>
 			<set name="range">30/90</set>
 			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS_PISTOL</set>
+		</setters>
+	</element>
+	<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_TITASCIUM_BULLET</set> -->
+    <element name="Titascium Bullet" type="Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_ITEM_TITASCIUM_BULLET">
+		<description>
+			<p>The ammunition of a Titascium firearm is made from a mineral called Titascium. The bullet is made from an alloy of Titascium and other metals. Different Titascium alloys have different properties.</p>
+			<p class="indent">Inside the bullet a powder mixture also made from Tiascium fuels reaction needed to propel it out of the pistol.</p>
+			<p class="indent">Titascium bullets can only be made by a skilled <em> Artificer </em>. </p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="sp">3</set>
+			<set name="weight" lb="0.2">1/5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Titascium Bolt Pistol" type="Weapon" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_TITASCIUM_FIREARMS_BOLT_PISTOL">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_DAMAGE_TYPE_PIERCING,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_LIGHT,ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+		<p>Titascium Pistols are made by skilled Artificers. The pistol only accepts speciallized Titascium Bullets. The Titascium powder inside the bullets reacts to a specialized trigger inside the pistol</p>
+		<p class="indent"> When a Titascium Pistol is fired it propels the bullet towards the target leaving behind a discharge cloud of colored smoke.</p>
+		<p>You gain a +1 bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra 1d6 lightning damage.</p>
+		<p><em>Bolt burst:</em>Whenever you roll an 18 or above on your attack roll with this weapon, up to 3 creature of your choice within 15 feet of the target takes 1d4 lightning damage.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="enhancement">1</set>
 			<set name="proficiency">ID_JBTF_WOR_CR_PROFICIENCY_WEAPON_TITASCIUM_FIREARMS_PISTOL</set>
 		</setters>
 	</element>
@@ -84,7 +118,7 @@
 
 	<element name="Godbane Starblade" type="Magic Item" source="World of Royan: Chaos Rift" id="ID_JBTF_WOR_CR_MAGIC_ITEM_GODBANE_LONGSWORD">
 		<description>
-			<p>This item appears to be a White Topaz ring. You can use a bonus action to summon an exotic longsword hilt into a free hand which causes a blade of pure radiance to spring into existence, or to make the hilt and blade disappear, or to only make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the <em>Godbane Starblade.</em></p>
+			<p>The hilt is made of metal that fell from the stars.  This item appears to be a White Topaz ring. You can use a bonus action to summon an exotic longsword hilt into a free hand which causes a blade of pure radiance to spring into existence, or to make the hilt and blade disappear, or to only make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the <em>Godbane Starblade.</em></p>
 			<p>You gain a +1 bonus to AC and saving throws while you have this item equiped.</p>
 			<p class="indent">You gain these benefit while the blade exists:</p>
 			<p class="indent">You gain a +2 bonus to attack and damage rolls made with this weapon, which deals an extra 1d4 radiant damage instead of slashing damage.</p>
